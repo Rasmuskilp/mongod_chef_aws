@@ -14,3 +14,8 @@ run_list 'mongodb_18::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'mongodb_18', path: '.'
+cookbook 'apt', '~> 7.2.0'
+# cookbook 'apt', '~> 7.2.0'
+# cookbook 'poise-python', '~> 1.7.0'
+# cookbook 'yum', '~> 5.1.0'
+cookbook 'sc-mongodb', '~> 1.2.0', :supermarket
